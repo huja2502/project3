@@ -13,7 +13,7 @@
 const Employee = (props) =>{
   return (
   <div className="card mx-auto my-5"  style = {{padding: '20px 30px', backgroundColor:'#E9967A', color: '#8B0000' , width:'18rem'}}>
-   <img src={props.data.photo} className="card-img-top" alt="..."></img>
+   <img src={props.data.photo} className="card-img-top" alt="photo"></img>
    <div className="card-body"> 
    <h5> {props.data.name}</h5>
    <h6>ID : {props.data.id}</h6>
