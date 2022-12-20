@@ -12,9 +12,9 @@
 
 const Employee = (props) =>{
   return (
-  <div class="card mx-auto my-5"  style = {{padding: '20px 30px', backgroundColor:'#E9967A', color: '#8B0000' , width:'18rem'}}>
-   <img src={props.data.photo} class="card-img-top" alt="..."></img>
-   <div class="card-body"> 
+  <div className="card mx-auto my-5"  style = {{padding: '20px 30px', backgroundColor:'#E9967A', color: '#8B0000' , width:'18rem'}}>
+   <img src={props.data.photo} className="card-img-top" alt="..."></img>
+   <div className="card-body"> 
    <h5> {props.data.name}</h5>
    <h6>ID : {props.data.id}</h6>
    <h6>Department : {props.data.department}</h6>
@@ -24,7 +24,7 @@ const Employee = (props) =>{
    
 
    
-   <button class="btn btn-danger" onClick = {props.resetState}>Back to List</button>
+   <button className="btn btn-danger" onClick = {props.resetState}>Back to List</button>
   </div>
   )
 }
